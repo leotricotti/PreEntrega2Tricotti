@@ -1,0 +1,41 @@
+.card {
+  padding-bottom: 2rem;
+}
+
+.title {
+  color: #000;
+  font-size: .89rem;
+  font-weight: 400;
+  padding-top: .5rem;
+}
+
+.cardImg {
+  position: relative;
+  z-index: 1;
+} 
+
+.cardImg:hover .cardBtn {
+  visibility: visible;
+}
+
+.cardBtn {
+  color: #000;
+  font-size: .9375rem;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: .75rem 1.75rem;
+  visibility: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.cardBtn:hover {
+  color: #fff;
+  background: #000;
+  transform: scale(.95);
+}
+
+

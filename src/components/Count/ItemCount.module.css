@@ -1,0 +1,45 @@
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 0;
+}
+
+.addCuant {
+  display: flex;
+  align-items: center;
+  gap: 6.3rem;
+  border: 1px solid #6e7b84;
+  padding: .36rem .58rem;
+  border-radius: 3px;
+  position: relative;
+}
+
+.plusSign, .minusSign {
+  width: 1rem;
+  height: 1rem;
+  color: #3da0d0;
+  cursor: pointer;
+}
+
+.number {
+  color: #727272;
+  font-weight: 700;
+  position: absolute;
+  left: 43%;
+
+}
+
+.addToCart {
+  color: #3da0d0;
+  margin-top: 1rem;
+  border: 1px solid #3da0d0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addToCart > p {
+  padding: .33rem .45rem;
+  letter-spacing: 1px;
+}

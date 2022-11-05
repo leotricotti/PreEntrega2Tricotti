@@ -1,0 +1,18 @@
+.heroBtn {
+  color: #000;
+  background: #f8f9fa;
+  border-color: #f8f9fa;
+  position: absolute;
+  padding: .75rem 1.75rem;
+  z-index: 0;
+  font-size: .95rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+@media (max-width: 577px) {
+  .heroBtn {
+    padding: .375rem .8125rem;
+    font-size: .625rem;
+  }
+}

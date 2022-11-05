@@ -44,14 +44,9 @@
   padding: 1rem 0;
 }
 
-.filterMinus {
-  display: none;
-}
-
 .filterPlus {
   color:  #343a40;
   padding-right: 1rem;
-  
 }
 
 .subMenuItemUno,
@@ -98,10 +93,20 @@ input {
 
 @media (min-width: 750px) {
   .filterBtn {
-    opacity: 0;
+    display: none;
   }
 
   .filterMd {
     display: block;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .filterBtn {
+    display: none;
+  }
+  .filterPlus {
+    display: none;
   }
 }

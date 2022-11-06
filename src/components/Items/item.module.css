@@ -12,6 +12,7 @@
 .cardImg {
   position: relative;
   z-index: 1;
+  min-height: 13rem;
 } 
 
 .cardImg:hover .cardBtn {
@@ -30,9 +31,10 @@
   padding: .75rem 1.75rem;
   visibility: hidden;
   transition: all .2s ease-in-out;
+  cursor: pointer;
 }
 
-.cardBtn > a {
+.cardBtn > span {
   color: #000;
 }
 
@@ -41,13 +43,7 @@
   transform: scale(.95);
 }
 
-.cardBtn:hover > a {
+.cardBtn:hover > span {
   color: #fff;
 }
 
-@media (min-width: 768px) {
-  .cardImg {
-    min-height: 250px;
-  } 
-
-}

@@ -1,9 +1,9 @@
-import styles from './styles.module.css'
+import styles from "./styles.module.css";
 
 export const Detail = () => {
   return (
-    <div>
+    <div className={styles.title}>
       <h1>Detail</h1>
     </div>
-  )   
-}
+  );
+};

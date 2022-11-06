@@ -1,45 +1,79 @@
-.counter {
-  width: 100%;
+.buyItem {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding: 10rem 0;
+  gap: 1rem;
+  padding: 3rem 0;
+  border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.counterTitle {
+  color: rgba(0, 0, 0, .9);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  position: absolute;
+  top: -2rem
+}
+
+.quantity {
+  position: relative;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .addCuant {
   display: flex;
   align-items: center;
   gap: 6.3rem;
-  border: 1px solid #6e7b84;
-  padding: .36rem .58rem;
-  border-radius: 3px;
+  background-color: #000;
+  padding: .762rem 1rem;
   position: relative;
+  cursor: pointer;
+  transition: all .2s  ease;
 }
 
-.plusSign, .minusSign {
-  width: 1rem;
-  height: 1rem;
-  color: #3da0d0;
+.addCuant:hover {
+  background-color: rgb(122, 105, 3);
+}
+
+.plusSign,
+.minusSign {
+  font-size: 1rem;
+  color: #fff;
   cursor: pointer;
 }
 
 .number {
-  color: #727272;
+  color: #fff;
   font-weight: 700;
   position: absolute;
   left: 43%;
-
 }
 
 .addToCart {
-  color: #3da0d0;
-  margin-top: 1rem;
-  border: 1px solid #3da0d0;
-  border-radius: 3px;
+  padding: .7rem .5rem;
+  border: 1px solid rgba(0, 0, 0, .125);
   cursor: pointer;
 }
 
-.addToCart > p {
-  padding: .33rem .45rem;
+.text {
+  color: rgba(0, 0, 0, .9);
+  font-weight: 600;
+  text-align: center;
   letter-spacing: 1px;
+  padding: .7rem .5rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.text:hover {
+  color: #fff;
+  border: 1px solid rgb(122, 105, 3);
+  background-color: rgb(122, 105, 3);
 }

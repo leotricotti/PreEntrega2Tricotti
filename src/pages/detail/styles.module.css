@@ -1,9 +1,27 @@
-.title {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 5rem;
-    font-weight: 800;
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailImg {
+  width: 100%;
+  padding: 4rem .7rem 1rem .7rem;
+}
+
+.detailTitle {
+  font-size: 1.25rem;
+  padding: .7rem .5rem;
+  border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.detailDescription {
+  font-size: .9rem;
+  padding: 0rem .7rem 1rem .7rem;
+}
+
+.detailPrice {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, .125);
 }

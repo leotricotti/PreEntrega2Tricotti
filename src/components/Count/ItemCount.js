@@ -1,15 +1,15 @@
-import React from "react";
-import styles from "./ItemCount.module.css";
+import React, { useState } from "react";
 import { MinusSign } from "../Widgets/MinusSign";
 import { PlusSign } from "../Widgets/PlusSign";
 import Swal from "sweetalert2";
 import withReactContent from 'sweetalert2-react-content'
+import styles from "./ItemCount.module.css";
 
 export const ItemCount = ({ stock, initial }) => {
   
   const MySwal = withReactContent(Swal);
   
-  let [count, setCount] = React.useState(initial);
+  let [count, setCount] = useState(initial);
 
   //función para sumar y modificar setCount
   const plusItem = () => {

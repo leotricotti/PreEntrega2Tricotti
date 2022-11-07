@@ -1,4 +1,4 @@
-import img from "../../assets/images/mujer/calzado/banner/0047b494219b8af236da089e2c86.jpg";
+import img from "../../assets/images/banner/todo.webp";
 import styles from "./filter.module.css";
 
 export const FilterImg = () => {

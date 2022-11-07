@@ -1,6 +1,6 @@
 .headerContainer {
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background: #fff;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,7 @@
   height: 17rem;
   background: #fff;
   position: absolute;
-  top: 4rem;
+  top: 3rem;
   left: 0;
   z-index: -1;
 }
@@ -84,6 +84,7 @@
 
 @media (min-width: 992px) {
   .headerContainer {
+    height: 4rem;
     justify-content: space-between;
   }
 

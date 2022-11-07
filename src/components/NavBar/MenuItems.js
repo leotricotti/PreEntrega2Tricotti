@@ -4,15 +4,15 @@ export const MenuItems = [
     url: "/products",
   },
   {
-    title: "mujer",
+    title: "calzado",
     url: "/products",
   },
   {
-    title: "hombre",
+    title: "indumentaria",
     url: "/products",
   },
   {
-    title: "niños",
+    title: "accesorios",
     url: "/products",
   },
   {

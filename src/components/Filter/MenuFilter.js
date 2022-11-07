@@ -1,22 +1,18 @@
 export const MenuFilter = [
   {
     id: 1,
-    gender: "mujer",
-    item1: "calzado",
-    item2: "indumentaria",
-    item3: "accesorios"
-  },
+    item1: "todo"
+  },  
   {
     id: 2,
-    gender: "hombre",
-    item1: "calzado",
-    item2: "indumentaria",
-    item3: "accesorios"
-  },
+    item1: "calzado"
+  },  
   {
     id: 3,
-    gender: "niño",
-    item1: "calzado",
-    item2: "indumentaria"
-  }
+    item1: "indumentaria"
+  },  
+  {
+    id: 4,
+    item1: "accesorios"
+  } 
 ];

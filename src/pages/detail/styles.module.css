@@ -25,3 +25,35 @@
   padding: 1rem 0;
   border-top: 1px solid rgba(0, 0, 0, .125);
 }
+
+@media (min-width: 768px) {
+  .detailContainer {
+    width: 100%;
+    flex-direction: row;
+    padding-top: 4rem;
+    overflow-x: hidden;
+  }
+
+  .detail {
+    padding-top: 1rem;
+  }
+  
+  .detailImg {
+    padding-top: 0;
+    width: 70%;
+  }
+
+  .detailPrice {
+    border: none;
+    padding-left: .7rem;
+  }
+
+  .detailTitle {
+    padding-right: 2rem;
+    border: none;
+  }
+
+  .detailDescription{
+    padding-right: 2rem;
+  }
+}

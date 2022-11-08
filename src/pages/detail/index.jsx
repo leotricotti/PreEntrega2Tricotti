@@ -9,10 +9,12 @@ export const Detail = () => {
   return (
     <div className={styles.detailContainer}>
       <img className={styles.detailImg} src={img} alt={title} />
-      <h1 className={styles.detailTitle} >{title}</h1>
-      <p className={styles.detailDescription}>{desc}</p>
-      <span className={styles.detailPrice}>$ {price}</span>
-      <ItemCount stock={stock} initial={0}/>
+      <div className={styles.detail}>
+        <h1 className={styles.detailTitle} >{title}</h1>
+        <p className={styles.detailDescription}>{desc}</p>
+        <span className={styles.detailPrice}>$ {price}</span>
+        <ItemCount stock={stock} initial={0}/>
+      </div>
     </div>
   );
 };

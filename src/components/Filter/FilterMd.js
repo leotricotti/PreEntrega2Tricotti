@@ -15,7 +15,7 @@ export const FilterMd = () => {
                 <li className={styles.subMenuItemUno}>
                   <label className={styles.subMenuLabel}>
                     <input type="radio" name="item" />
-                    <span className={styles.subMenuText}>{filter.item1}</span>
+                    <span className={styles.subMenuText}>{filter.item}</span>
                   </label>
                 </li>
               </form>

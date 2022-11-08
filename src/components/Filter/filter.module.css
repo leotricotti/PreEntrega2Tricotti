@@ -106,4 +106,8 @@ input {
   .plusSign {
     display: none;
   }
+
+  .filterMd {
+    display: block;
+  }
 }

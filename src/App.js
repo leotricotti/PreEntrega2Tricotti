@@ -1,5 +1,5 @@
 import { NavBar } from "./components/NavBar/NavBar";
-import { Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { Home } from './pages/home';
 import { Products } from "./pages/products";
 import { Detail } from "./pages/detail";
@@ -9,7 +9,7 @@ import { Cart } from "./pages/cart";
 
 export const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <NavBar />
       <main>
         <Routes>
@@ -20,6 +20,6 @@ export const App = () => {
           <Route exact path="/cart" element={<Cart />} />
         </Routes>
       </main>
-    </>
+    </BrowserRouter>
   );
 };

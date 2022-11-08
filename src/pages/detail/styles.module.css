@@ -30,16 +30,15 @@
   .detailContainer {
     width: 100%;
     flex-direction: row;
-    padding-top: 4rem;
+    
     overflow-x: hidden;
   }
 
   .detail {
-    padding-top: 1rem;
+    padding-top: 6rem;
   }
   
   .detailImg {
-    padding-top: 0;
     width: 70%;
   }
 

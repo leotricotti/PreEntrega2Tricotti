@@ -5,15 +5,15 @@ export const MenuItems = [
   },
   {
     title: "calzado",
-    url: "/products",
+    url: "/products/sneakers",
   },
   {
     title: "indumentaria",
-    url: "/products",
+    url: "/products/sportswear",
   },
   {
     title: "accesorios",
-    url: "/products",
+    url: "/products/accessories",
   },
   {
     title: "encontranos",

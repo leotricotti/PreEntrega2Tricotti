@@ -4,6 +4,7 @@ import styles from "./NavBar.module.css";
 import { CartWidget } from "../Widgets/CartWidget";
 import { NavToggle } from "../Widgets/NavToggle";
 import { NavBarDesktop } from "./NavBarMenu";
+import { NavLink } from "react-router-dom";
 
 
 export function NavBar() {
@@ -16,9 +17,9 @@ export function NavBar() {
       </div>
       <div className={styles.navRight}>
         <div className={styles.logoContainer}>
-          <a href="/">
+          <NavLink to="/">
             <img src={logo} alt="Logo" className={styles.headerLogo} />
-          </a>
+          </NavLink>
         </div>
         {toggle && (
           <div className={styles.navMobile}>
@@ -30,10 +31,10 @@ export function NavBar() {
         <NavBarDesktop />
       </div>
       <div>
-        <a href="/cart" className={styles.cart}>
+        <NavLink to="/cart" className={styles.cart}>
           <p>Cart</p>
           <CartWidget />
-        </a>
+        </NavLink>
       </div>
     </header>
   );

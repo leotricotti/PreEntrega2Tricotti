@@ -1,11 +1,10 @@
 import { NavBar } from "./components/NavBar/NavBar";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import { Home } from './pages/home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/home";
 import { Products } from "./pages/products";
 import { Detail } from "./pages/detail";
 import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart";
-
 
 export const App = () => {
   return (

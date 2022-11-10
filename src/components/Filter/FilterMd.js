@@ -2,7 +2,6 @@ import styles from "./filter.module.css";
 import { MenuFilter } from "./MenuFilter";
 
 export const FilterMd = () => {
-
   return (
     <>
       <ul>

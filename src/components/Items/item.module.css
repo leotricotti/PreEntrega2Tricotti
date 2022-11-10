@@ -13,7 +13,7 @@
   position: relative;
   z-index: 1;
   min-height: 13rem;
-} 
+}
 
 .cardImg:hover .cardBtn {
   visibility: visible;
@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 
-.cardBtn > span {
+.cardBtn>span {
   color: #000;
 }
 
@@ -43,7 +43,6 @@
   transform: scale(.95);
 }
 
-.cardBtn:hover > span {
+.cardBtn:hover>span {
   color: #fff;
 }
-

@@ -1,14 +1,18 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import logo from "../../assets/images/logo/converse.webp";
-import styles from "./NavBar.module.css";
 import { CartWidget } from "../Widgets/CartWidget";
 import { NavToggle } from "../Widgets/NavToggle";
 import { NavBarDesktop } from "./NavBarMenu";
 import { NavLink } from "react-router-dom";
-
+import styles from "./NavBar.module.css";
 
 export function NavBar() {
   const [toggle, setToggle] = useState(false);
+  const close = () => {
+    if (toggle) {
+      setToggle(!toggle);
+    }
+  };
 
   return (
     <header className={styles.headerContainer}>
@@ -23,7 +27,7 @@ export function NavBar() {
         </div>
         {toggle && (
           <div className={styles.navMobile}>
-            <NavBarDesktop />
+            <NavBarDesktop close={close} />
           </div>
         )}
       </div>

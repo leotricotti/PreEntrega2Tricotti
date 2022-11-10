@@ -318,12 +318,11 @@ const Products = [
     stock: 12,
     img: require("../images/niño/indumentaria/img4.jpg"),
     desc: "Remera classic fit. Manga corta. Logo estampado en frente.",
-  }
+  },
 ];
 
-
 export const getProducts = () => {
- return new Promise(function (resolve) {
+  return new Promise(function (resolve) {
     setTimeout(() => {
       resolve(Products);
     }, 2000);

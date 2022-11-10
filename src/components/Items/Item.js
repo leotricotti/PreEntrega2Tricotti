@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import styles from "./item.module.css";
 
 export const Item = ({ product }) => {
-
   const { id, img, title } = product;
   const navigate = useNavigate();
   const handleDetail = () => {

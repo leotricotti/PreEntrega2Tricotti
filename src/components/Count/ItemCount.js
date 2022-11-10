@@ -77,7 +77,9 @@ export const ItemCount = ({ stock, initial }) => {
           </div>
         </div>
       </div>
-      <p className={styles.text} onClick={confirmAdd}>Agregar al carrito</p>
+      <p className={styles.text} onClick={confirmAdd}>
+        Agregar al carrito
+      </p>
     </div>
   );
 };

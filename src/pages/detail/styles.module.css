@@ -21,7 +21,6 @@
 
 .detailPrice {
   font-size: 2rem;
-  text-align: center;
   padding: 1rem 0;
   border-top: 1px solid rgba(0, 0, 0, .125);
 }
@@ -35,7 +34,7 @@
   .detail {
     padding-top: 6rem;
   }
-  
+
   .detailImg {
     width: 70%;
     height: 100vh;
@@ -53,7 +52,7 @@
     border: none;
   }
 
-  .detailDescription{
+  .detailDescription {
     padding-right: 2rem;
   }
 }

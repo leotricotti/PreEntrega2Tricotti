@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import { ThreeDots } from "react-loader-spinner";
 
 export const Spinner = () => {
-  
   const [visibility, setVisibility] = useState(true);
 
   setTimeout(() => {
-    setVisibility(false)
+    setVisibility(false);
   }, 2000);
 
   return (

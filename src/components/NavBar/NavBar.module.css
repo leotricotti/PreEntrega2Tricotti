@@ -37,7 +37,7 @@
 
 .navList {
   padding: .8rem 0;
-  border-bottom: 1px solid  #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .navList:first-child {
@@ -78,7 +78,7 @@
   color: #000;
 }
 
-.cart > p {
+.cart>p {
   display: none;
 }
 
@@ -97,7 +97,7 @@
     height: 16px;
     margin-top: .4rem;
   }
-  
+
   .navToggle {
     display: none;
   }
@@ -134,7 +134,7 @@
     padding-right: 1rem;
   }
 
-  .cart > p {
+  .cart>p {
     display: block;
   }
 

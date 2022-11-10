@@ -37,10 +37,6 @@
   transition: all .2s  ease;
 }
 
-.addCuant:hover {
-  background-color: rgb(122, 105, 3);
-}
-
 .plusSign,
 .minusSign {
   font-size: 1rem;

@@ -10,7 +10,7 @@ export function HeroSection() {
         <img src={HeroImg} alt="influencers" className={styles.heroDesktop} />
         <img src={HeroMovil} alt="influencers" className={styles.heroMovil} />
       </section>
-      <HeroBtn link={"/products"}/>
+      <HeroBtn link={"/products"} />
     </div>
   );
 }

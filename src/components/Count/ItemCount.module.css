@@ -74,8 +74,7 @@
 
 @media (min-width: 768px) {
   .buyItem {
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: flex-start;
     border: none;
     padding-left: .7rem;
   }

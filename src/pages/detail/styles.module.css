@@ -30,8 +30,6 @@
   .detailContainer {
     width: 100%;
     flex-direction: row;
-    
-    overflow-x: hidden;
   }
 
   .detail {
@@ -40,6 +38,9 @@
   
   .detailImg {
     width: 70%;
+    height: 100vh;
+    object-fit: cover;
+
   }
 
   .detailPrice {

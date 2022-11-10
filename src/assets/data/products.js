@@ -321,6 +321,7 @@ const Products = [
   }
 ];
 
+
 export const getProducts = () => {
  return new Promise(function (resolve) {
     setTimeout(() => {

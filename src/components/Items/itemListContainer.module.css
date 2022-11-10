@@ -9,6 +9,11 @@
   display: none;
 }
 
+.ThreeDots {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .gridContainer {
     grid-template-columns: repeat(3, 1fr);

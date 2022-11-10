@@ -1,9 +1,7 @@
-import React, { useState } from "react";
 import styles from "./filter.module.css";
 import { MenuFilter } from "./MenuFilter";
 
 export const FilterMd = () => {
-  const [toggleFilter, setToggleFilter] = useState(false);
 
   return (
     <>
